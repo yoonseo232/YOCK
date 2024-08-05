@@ -19,9 +19,22 @@
 
 .leftDoor {
     background-image: url("../../../public/images/doorLeft.png");
+    z-index: 1;
 }
 
 .rightDoor {
     margin-inline-start: calc(50vw - 70px);
     background-image: url("../../../public/images/doorRight.png");
+    z-index: 1;
+}
+
+.titleYock{
+    background-image: url("../../../public/images/titleYock.png");
+    width: 391px;
+    height: 478px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 3;
 }

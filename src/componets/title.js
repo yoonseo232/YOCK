@@ -6,6 +6,7 @@ function Title(){
     return (
         <div className={title.background}>
             <div className={title.container}>
+                <div className={title.titleYock}></div>
                 <div className={title.leftDoor}></div>
                 <div className={title.rightDoor}></div>
             </div>
