@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Title from './componets/title';
+import Title from './componets/Title';
 
 function App() {
    return (

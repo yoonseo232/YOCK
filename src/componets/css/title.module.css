@@ -1,5 +1,27 @@
-.door{
-    background-color: yellow;
-    width: 50%;
-    height: 100%
+.background{
+    background-color: #77898F;
+    inline-size: 100vw;
+    block-size: 100vh;
+}    
+
+.container{
+    inline-size: 1780px;
+    block-size: 1020px;
+    margin-inline-start: 76px;
+    margin-block-start: 36px;
+}
+
+.leftDoor, .rightDoor {
+    inline-size: 50%;
+    block-size: 100%;
+    position: absolute;
+}
+
+.leftDoor {
+    background-image: url("../../../public/images/doorLeft.png");
+}
+
+.rightDoor {
+    margin-inline-start: calc(50vw - 70px);
+    background-image: url("../../../public/images/doorRight.png");
 }
